@@ -1,0 +1,26 @@
+HOSTOS GAME DESIGN FAQ
+
+What exactly is Game Design anyways?
+
+Game Design is field of design based on the ability to craft playful systems involving player input with a desired outcome.  Game designers must be able to think in terms of abstractions, anticipating the kinds of choices a player might make while playing a game.  In order to implement their designs, students in the Game Design Program will need to be knowledgeable of a number of topics in diverse fields such as graphic design, computer science, sound design and writing.
+
+Playing games is not the same thing as Game Design.  Being good at playing games does not necessarily mean one will excel as a game designer.  Designing and developing a game from the ground up is hard work!  It takes perseverance to succeed at creating games and other elaborate multimedia projects. 
+	
+What is the Game Design A.A.S. program at Hostos about?  What kinds of courses are students required to take?
+
+Why should game designers care about math?
+
+Game designers need to be able to understand how logical systems function in order to design playful interactions.  Math is a necessary part of all of this.  Even if a Game Design student does not plan on becoming a game programmer or developer, game design relies upon many of the same skills.
+
+I am a Game Design student.  Why do I need to take a coding class?
+
+Because coding is awesome!  Being able to code means having the power to realize your ideas.  Thinking in terms of code is also excellent practice when you’re designing physical games too!
+Can a student required to take remedial math courses succeed in the Game Design Program?
+
+	Yes!  Many students who previously found themselves falling behind in math and science find that framing these subjects through games will reveal them in an entirely new, positive light.
+
+
+What else is expected of game design majors?
+
+game competition
+
