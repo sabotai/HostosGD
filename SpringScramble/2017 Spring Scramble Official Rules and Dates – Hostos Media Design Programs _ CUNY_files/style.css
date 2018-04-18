@@ -1,0 +1,433 @@
+/*
+Theme Name:     Kleo Child
+Theme URI:
+Description:    Child theme for Kleo
+Author:         SeventhQueen
+Author URI:     http://seventhqueen.com
+Template:       kleo
+Tags:  one-column, two-columns, right-sidebar, fluid-layout, custom-menu, featured-images, post-formats, sticky-post, translation-ready
+License: GNU General Public License
+License URI: license.txt
+*/
+
+/*
+* Please add your custom styles below
+*/
+
+
+#footer {
+	color: #ffffff;
+}
+.footer-color {
+	background-color: #1074a8;
+}
+#socket .socket-color {
+	background-color: #005596;
+}
+
+/* the code below highlights when links get the focus state. Wilfredo Rodriguez added on 3/27/2018.  Francisco Quiroz provided the code. */
+a:focus {
+    outline-width: 3px !important;
+    outline-color: #9CF !important;
+    outline-style: solid !important;
+	text-decoration: underline;
+	font-weight:600;
+}
+
+
+
+header,
+footer,
+nav,
+figure { display: block; width:}
+img { 
+	border-style: none; 
+	height: auto;
+	max-width: 100%
+}
+
+#wrapper {
+	overflow: hidden;
+	position: relative;
+	background: #05346d url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzA1MzQ2ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE2JSIgc3RvcC1jb2xvcj0iIzE4NDQ3OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM4JSIgc3RvcC1jb2xvcj0iIzNlNjM5MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU5JSIgc3RvcC1jb2xvcj0iIzZjODlhYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg3JSIgc3RvcC1jb2xvcj0iI2FlYmZkNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjOWQ1ZTQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #05346d 0%, #184479 16%, #3e6390 38%, #6c89ac 59%, #aebfd4 87%, #c9d5e4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #05346d), color-stop(16%, #184479), color-stop(38%, #3e6390), color-stop(59%, #6c89ac), color-stop(87%, #aebfd4), color-stop(100%, #c9d5e4));
+	background: -webkit-linear-gradient(top, #05346d 0%, #184479 16%, #3e6390 38%, #6c89ac 59%, #aebfd4 87%, #c9d5e4 100%);
+	background: -o-linear-gradient(top, #05346d 0%, #184479 16%, #3e6390 38%, #6c89ac 59%, #aebfd4 87%, #c9d5e4 100%);
+	background: -ms-linear-gradient(top, #05346d 0%, #184479 16%, #3e6390 38%, #6c89ac 59%, #aebfd4 87%, #c9d5e4 100%);
+	background: linear-gradient(to bottom, #05346d 0%, #184479 16%, #3e6390 38%, #6c89ac 59%, #aebfd4 87%, #c9d5e4 100%);
+}
+#wrapper.hostos-header-home { padding: 0 31px; }
+
+#hheader {
+	padding: 0px 31px 0 32px;
+	border:0 solid #000;
+	width: 100%
+}
+#header .add-nav {
+	font-size: 12px;
+	overflow: hidden;
+	line-height: 15px;
+	margin: 0 -11px 17px 0;
+}
+#header .add-nav ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style: none;
+}
+#header .add-nav ul li {
+	float: left;
+	position: relative;
+	padding: 0 9px 0 10px;
+	text-transform: capitalize;
+}
+#header .add-nav ul li:before {
+	left: 0;
+	top: 2px;
+	width: 1px;
+	bottom: 1px;
+	content: '';
+	position: absolute;
+	background: #314d89;
+}
+
+#header .logo a img {
+	width: auto;
+	height: auto;
+	vertical-align: top;
+	margin: 7px 0 0;
+}
+
+#header .logo{
+	display: block;
+	width: 424px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+}
+
+#header .add-nav ul li:first-child:before { display: none; }
+#header .add-nav ul li a { color: #314d89; }
+#header .add-nav ul li a:hover {
+	color: #ffa53a;
+	text-decoration: none;
+}
+.htopbar { padding: 0 0 15px; }
+#nav {
+	font-size: 14px;
+	line-height: 17px;
+	margin: 0 -31px 0 -32px;
+	background: #317cc2 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMxN2NjMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI5JSIgc3RvcC1jb2xvcj0iIzMxNzFiNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjczJSIgc3RvcC1jb2xvcj0iIzMxNTg5NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMTRlOGEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #317cc2 0%, #3171b5 29%, #315896 73%, #314e8a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #317cc2), color-stop(29%, #3171b5), color-stop(73%, #315896), color-stop(100%, #314e8a));
+	background: -webkit-linear-gradient(top, #317cc2 0%, #3171b5 29%, #315896 73%, #314e8a 100%);
+	background: -o-linear-gradient(top, #317cc2 0%, #3171b5 29%, #315896 73%, #314e8a 100%);
+	background: -ms-linear-gradient(top, #317cc2 0%, #3171b5 29%, #315896 73%, #314e8a 100%);
+	background: linear-gradient(to bottom, #317cc2 0%, #3171b5 29%, #315896 73%, #314e8a 100%);
+}
+#nav > ul {
+	margin: 0;
+	margin-bottom: -15px;
+	padding: 0;
+	width: 100%;
+	display: table;
+	list-style: none;
+}
+#nav > ul > li {
+	font-weight: 700;
+	display: table-cell;
+	vertical-align: top;
+	border-left: #5b7fa4 solid 1px;
+	position: relative;
+}
+#nav > ul > li > div { position: relative; }
+#nav > ul > li > div > a {
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	padding: 16px 2% 17px;
+	text-transform: capitalize;
+	width: 100%;
+}
+#nav > ul > li > div:hover > a,
+#nav > ul > li.current > div > a,
+#nav > ul > li.active > div > a,
+#nav > ul > li > div > a:hover {
+	text-decoration: none;
+	background: #479ceb url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ3OWNlYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM1JSIgc3RvcC1jb2xvcj0iIzQ2OTFlMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU3JSIgc3RvcC1jb2xvcj0iIzQ1ODZkNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MTY5YmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #479ceb 0%, #4691e1 35%, #4586d7 57%, #4169bc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #479ceb), color-stop(35%, #4691e1), color-stop(57%, #4586d7), color-stop(100%, #4169bc));
+	background: -webkit-linear-gradient(top, #479ceb 0%, #4691e1 35%, #4586d7 57%, #4169bc 100%);
+	background: -o-linear-gradient(top, #479ceb 0%, #4691e1 35%, #4586d7 57%, #4169bc 100%);
+	background: -ms-linear-gradient(top, #479ceb 0%, #4691e1 35%, #4586d7 57%, #4169bc 100%);
+	background: linear-gradient(to bottom, #479ceb 0%, #4691e1 35%, #4586d7 57%, #4169bc 100%);
+}
+#nav > ul > li.hostos-header-home {
+	border: 0;
+	width: 180px;
+	
+}
+.opener{
+	color: #fff;
+	background: #294c89;
+	text-decoration: none;
+}
+#nav > ul > li.hostos-header-home > div > a {
+	padding: 0;
+	height: 50px;
+	overflow: hidden;
+	position: relative;
+	text-indent: -9999px; 
+}
+#nav > ul > li.hostos-header-home > div > a:after {
+	left: 20%;
+	top: 20%;
+	margin: -9px 0 0 -9px;
+	width: 180px; 
+	content: '';
+	height: 50px;
+	position: absolute;
+	background: url(http://commons.hostos.cuny.edu/images/Hostos50-White-Orange-150x56.png) no-repeat 0;
+}
+
+#nav > ul.hnavigation > li.icon {display: none;}
+
+@media screen and (max-width:976px) {
+  #nav > ul.hnavigation > li:not(:first-child) {display: none;}
+  #nav > ul.hnavigation > li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+
+@media screen and (max-width:976px) {
+  #nav > ul.hnavigation.responsive {position: relative;}
+  #nav > ul.hnavigation.responsive > li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #nav > ul.hnavigation.responsive > li{
+    float: none;
+    display: table-cell;
+	border-left: #5b7fa4 solid 0px;
+  }
+  #nav > ul.hnavigation.responsive > li > a {
+    display: block;
+    text-align: left;
+  }
+}
+
+#myNavbar{
+	color: #fff;
+	font-size: 14px;
+	font-size: 14px;
+	line-height: 17px;
+	margin: 0 -31px 0 -32px;
+	background: #317cc2 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMxN2NjMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI5JSIgc3RvcC1jb2xvcj0iIzMxNzFiNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjczJSIgc3RvcC1jb2xvcj0iIzMxNTg5NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMTRlOGEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #317cc2 0%, #3171b5 29%, #315896 73%, #314e8a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #317cc2), color-stop(29%, #3171b5), color-stop(73%, #315896), color-stop(100%, #314e8a));
+	background: -webkit-linear-gradient(top, #317cc2 0%, #3171b5 29%, #315896 73%, #314e8a 100%);
+	background: -o-linear-gradient(top, #317cc2 0%, #3171b5 29%, #315896 73%, #314e8a 100%);
+	background: -ms-linear-gradient(top, #317cc2 0%, #3171b5 29%, #315896 73%, #314e8a 100%);
+	background: linear-gradient(to bottom, #317cc2 0%, #3171b5 29%, #315896 73%, #314e8a 100%);
+	font-weight: 700;
+	display: table-cell;
+	vertical-align: top;
+	border-left: #5b7fa4 solid 1px;
+	position: relative;
+	color: #fff;
+	display: block;
+	text-align: center;
+	padding: 16px 2% 17px;
+	text-transform: capitalize;
+}
+
+#nav li:hover .dropdown,
+#nav .dropdown:hover { background: #4374c8; }
+#nav .dropdown li {
+	margin: 0 0 10px;
+}
+#nav .dropdown li a { color: #fff; }
+#nav .dropdown li a:hover {
+	color: #ffbc3a;
+	text-decoration: none;
+}
+
+#hostos-footer {
+	width: 100%;
+	height: 220px;
+	padding: 15px 25px 15px 25px;
+	color: white;
+	background-color: #005596;
+}
+
+nav a:link { display: block; color: #fff;}
+nav a:visited { color: #fff; }
+
+#hostos-footer .hostos-footer-holder {
+	overflow: hidden;
+	padding: 0 0 14px;
+}
+#hostos-footer .hostos-footer-info {
+	float: left;
+	width: 73%;
+	color: white;
+}
+#hostos-footer .logo {
+	float: left;
+	width: 45px;
+	margin: 3px 14px 0 0;
+}
+#hostos-footer .logo img {
+	marging-top: 100px;
+	max-height: 100%;
+	width: auto;
+}
+#hostos-footer .logo a img { vertical-align: top; }
+#hostos-footer  address {
+	float: left;
+	width: 47%;
+	line-height: 19px;
+	font-style: normal;
+	padding: 0 3.2% 0 0;
+}
+* {
+    max-height: 1000000px;
+}
+#hostos-footer address span {
+	margin: 0 0 2px;
+	vertical-align: top;
+	display: inline-block;
+}
+#hostos-footer address .tel {
+	cursor: text;
+	text-decoration: none;
+}
+#hostos-footer .add-nav {
+	overflow: hidden;
+	margin: 0 10% 0 0;
+}
+#hostos-footer .add-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#hostos-footer .add-nav ul li {
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+	padding: 0 10px 3px 11px;
+}
+#hostos-footer .add-nav ul li:before {
+	left: 0;
+	top: 4px;
+	width: 1px;
+	content: '';
+	bottom: 4px;
+	position: absolute;
+	background: #67a3bf;
+}
+#hostos-footer .add-nav ul li:first-child,
+#hostos-footer .add-nav ul li.email,
+#hostos-footer .add-nav ul li.contact { padding-left: 0; }
+#hostos-footer .add-nav ul li:first-child:before,
+#hostos-footer .add-nav ul li.email:before,
+#hostos-footer .add-nav ul li.contact:before { display: none; }
+#hostos-footer .add-nav ul li.email .icon {
+	margin: -1px 0 0 9px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#hostos-footer .social-area {
+	float: right;
+	width: 211px;
+	padding: 3px 0 0;
+}
+#hostos-footer .social-area .btn-more {
+	float: left;
+	width: 100px;
+	margin: 0 25px 0 0;
+}
+#hostos-footer .social-area .area { overflow: hidden; }
+#hostos-footer .social-area .area .logo { margin: 0 0 0 1px; }
+.social-networks {
+	margin: 0;
+	padding: 0 0 6px;
+	overflow: hidden;
+	list-style: none;
+}
+.social-networks li {
+	float: left;
+	margin: 0 0 4px 4px;
+}
+.social-networks li:first-child { margin: 0 0 6px; }
+.social-networks li a {
+	width: 24px;
+	height: 24px;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url(http://commonsdev.hostos.cuny.edu/wp-content/uploads/2017/07/sprite.png) no-repeat 0 0;
+}
+.facebook {
+	background-position: -10px 0px;
+}
+.twitter { 
+	background: -34 0;
+}
+.youtube {
+	background-position: -68 0;
+}
+
+#hostos-footer .nav {
+	text-align: center;
+	text-transform: capitalize;
+}
+#hostos-footer .nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#hostos-footer .nav ul li {
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+	padding: 0 9px 0 10px;
+}
+#hostos-footer .nav ul li:before {
+	left: 0;
+	top: 3px;
+	width: 2px;
+	content: '';
+	height: 14px;
+	position: absolute;
+	background: url(http://www.hostos.cuny.edu/App_Themes/Hostos/images/sprite.png) no-repeat -284px 0;
+}
+#hostos-footer .nav ul li:first-child:before { display: none; }
+.btn-more {
+	height: 25px;
+	color: #314d89;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 6px;
+	position: relative;
+	vertical-align: top;
+	padding: 4px 0 6px;
+	display: inline-block;
+	background: #FFBC3A; 
+	font: 700 12px/17px 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+#header .logo a img {
+    width: auto;
+}
+
+
+
+
+
+/* Minification failed (line 934, error number 1030): Expected identifier, found ' ' */
